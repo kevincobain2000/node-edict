@@ -14,9 +14,10 @@ npm install https://github.com/kevincobain2000/node-edict/tarball/master
 
 Usage
 -----
-
+<pre>
 var Edict = require("node-edict");
 edict = new Edict;
+</pre>
 
 Note
 -----
@@ -27,9 +28,8 @@ REDIS.
 Run the following
 
 <pre>
-    edict = new Edict;
 
-
+edict = new Edict;
 edict.setDB(2);
 edict.redisSetEntries(function(callback){
     
